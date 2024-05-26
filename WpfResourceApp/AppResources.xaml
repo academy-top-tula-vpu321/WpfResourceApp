@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:coll="clr-namespace:System.Collections;assembly=System.Collections.NonGeneric"
+                    xmlns:sys="clr-namespace:System;assembly=System.Console">
+    
+    <SolidColorBrush x:Key="brushRed" Color="Red"/>
+    <SolidColorBrush x:Key="brushWhite" Color="White" x:Shared="False"/>
+    <coll:ArrayList x:Key="prods">
+        <sys:String>Car</sys:String>
+        <sys:String>Computer</sys:String>
+    </coll:ArrayList>
+</ResourceDictionary>
